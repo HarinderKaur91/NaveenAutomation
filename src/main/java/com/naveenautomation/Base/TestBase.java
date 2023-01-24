@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
-	//Testing webhook
+	//Testing Webhook
 	public static WebDriver driver;
 	public Browsers DEFAULT_BROWSER = Browsers.EDGE;
 
