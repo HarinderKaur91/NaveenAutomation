@@ -29,6 +29,7 @@ public class TestBase {
 	public EventFiringWebDriver eventFiringWebDriver;
 
 	public void launchBrowser() {
+		//switch case
 		switch (DEFAULT_BROWSER) {
 		case GOOGLE_CHROME:
 			WebDriverManager.chromedriver().setup();
