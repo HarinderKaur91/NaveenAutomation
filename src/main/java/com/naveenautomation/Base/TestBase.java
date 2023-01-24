@@ -17,16 +17,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestBase {
 
 	//Testing Web hook
-	//validating webhook
 	public static WebDriver driver;
 	public Browsers DEFAULT_BROWSER = Browsers.EDGE;
 
 	// EventFiringWebDriver is a wrapper around an arbitrary WebDriver instance
 	// which supports registering of a WebDriverEventListener, e.g. for logging
 	// purposes.
-
-	public static WebdriverEvents events = new WebdriverEvents();
-	public EventFiringWebDriver eventFiringWebDriver;
+//
+//	public static WebdriverEvents events = new WebdriverEvents();
+//	public EventFiringWebDriver eventFiringWebDriver;
 
 	public void launchBrowser() {
 		//switch case
