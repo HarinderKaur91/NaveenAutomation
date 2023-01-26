@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
-	//Testing Web hook
+	// Testing Web hook
 	public static WebDriver driver;
 	public Browsers DEFAULT_BROWSER = Browsers.EDGE;
 
@@ -26,9 +26,9 @@ public class TestBase {
 //
 //	public static WebdriverEvents events = new WebdriverEvents();
 //	public EventFiringWebDriver eventFiringWebDriver;
-//launch method
+//launching browser
 	public void launchBrowser() {
-		//switch case
+		// switch case
 		switch (DEFAULT_BROWSER) {
 		case GOOGLE_CHROME:
 			WebDriverManager.chromedriver().setup();
@@ -63,13 +63,12 @@ public class TestBase {
 		// Manage the script load timeout
 		driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
 
-		
 	}
-
+//closing browser
 	public void quitBrowser() {
 		// closing the browser
-		//close method closes the current window instance
-		//driver.close();
+		// close method closes the current window instance
+		// driver.close();
 	}
 
 }
