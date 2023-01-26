@@ -68,6 +68,7 @@ public class TestBase {
 
 	public void quitBrowser() {
 		// closing the browser
+		//close method closes the current window instance
 		//driver.close();
 	}
 
