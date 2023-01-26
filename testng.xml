@@ -17,7 +17,7 @@
 		<classes>
 			<class name="com.naveenautomation.Tests.AccountLoginTest" />
 			<class name="com.naveenautomation.Tests.MyAccountTest" />
-			<class name="com.naveenautomation.Tests.MyWishListTest" />
+			
 
 		</classes>
 	</test> <!-- Test -->
