@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 
-	// Testing Web hooking
+	// Testing Web hooking with jenkins
 	public static WebDriver driver;
 	public Browsers DEFAULT_BROWSER = Browsers.EDGE;
 
