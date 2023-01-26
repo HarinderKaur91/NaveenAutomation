@@ -26,7 +26,7 @@ public class TestBase {
 //
 //	public static WebdriverEvents events = new WebdriverEvents();
 //	public EventFiringWebDriver eventFiringWebDriver;
-
+//launch method
 	public void launchBrowser() {
 		//switch case
 		switch (DEFAULT_BROWSER) {
