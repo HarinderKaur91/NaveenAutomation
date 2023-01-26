@@ -8,8 +8,8 @@ public enum Browsers {
 	
 	String browserName;
 	
-	private Browsers(String nameOfBrowser) {
-		this.browserName = nameOfBrowser;
+	private Browsers(String name) {
+		this.browserName = name;
 	}
 	
 	public String getName() {
