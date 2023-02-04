@@ -3,7 +3,7 @@ package com.naveenautomation.Browsers;
 public enum Browsers {
 	
 	GOOGLE_CHROME("chrome"),
-	EDGE("edge"),
+	EDGE("microsoft edge"),
 	FIREFOX("firefox");
 	
 	String browserName;

@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public abstract class GeneralPage extends LoadableComponent<GeneralPage> {
-
+//I added everything
 	protected WebDriver wd;
 	public static final int DEFAULT_TIME_FOR_PAGE_LOAD = 10;
 
