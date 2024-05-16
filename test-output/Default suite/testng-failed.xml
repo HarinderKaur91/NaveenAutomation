@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="validateLogin"/>
+          <include name="verifyAlertBannerForNewsletterSubscription"/>
         </methods>
       </class> <!-- com.naveenautomation.Tests.MyAccountTest -->
     </classes>

@@ -525,3 +525,57 @@
 2023-01-23 14:43:52 INFO  CustomListener:19 - Test execution has started for : verifyAlertBannerForTelephoneUpdate
 2023-01-23 14:43:52 INFO  CustomListener:36 - Test execution has skipped for : verifyAlertBannerForTelephoneUpdate
 2023-01-23 14:44:14 INFO  CustomListener:36 - Test execution has skipped for : verifyLoginCredentials
+2023-03-02 14:46:46 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-03-02 14:46:46 INFO  RetryFailedTests:20 - Running a failed test 1 times
+2023-03-02 14:46:46 INFO  CustomListener:36 - Test execution has skipped for : testSomething
+2023-03-02 14:46:53 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-03-02 14:46:53 INFO  RetryFailedTests:20 - Running a failed test 2 times
+2023-03-02 14:46:53 INFO  CustomListener:36 - Test execution has skipped for : testSomething
+2023-03-02 14:47:00 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-03-02 14:47:00 INFO  CustomListener:30 - Test execution failed and taking screen shot: testSomething
+2023-03-02 14:47:08 INFO  CustomListener:19 - Test execution has started for : validateLogin
+2023-03-02 14:47:08 INFO  CustomListener:24 - Test execution has passed for : validateLogin
+2023-03-02 14:47:14 INFO  CustomListener:19 - Test execution has started for : verifyAlertBannerForNewsletterSubscription
+2023-03-02 14:47:15 INFO  RetryFailedTests:20 - Running a failed test 1 times
+2023-03-02 14:47:15 INFO  CustomListener:36 - Test execution has skipped for : verifyAlertBannerForNewsletterSubscription
+2023-03-02 14:47:22 INFO  CustomListener:19 - Test execution has started for : verifyAlertBannerForNewsletterSubscription
+2023-03-02 14:47:23 INFO  RetryFailedTests:20 - Running a failed test 2 times
+2023-03-02 14:47:23 INFO  CustomListener:36 - Test execution has skipped for : verifyAlertBannerForNewsletterSubscription
+2023-03-02 14:47:30 INFO  CustomListener:19 - Test execution has started for : verifyAlertBannerForNewsletterSubscription
+2023-03-02 14:47:31 INFO  CustomListener:30 - Test execution failed and taking screen shot: verifyAlertBannerForNewsletterSubscription
+2023-03-02 14:47:32 INFO  CustomListener:19 - Test execution has started for : verifyAlertBannerForTelephoneUpdate
+2023-03-02 14:47:32 INFO  CustomListener:36 - Test execution has skipped for : verifyAlertBannerForTelephoneUpdate
+2023-12-07 23:39:39 INFO  CustomListener:36 - Test execution has skipped for : verifyLoginCredentials
+2023-12-07 23:39:52 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-12-07 23:39:52 INFO  RetryFailedTests:20 - Running a failed test 1 times
+2023-12-07 23:39:52 INFO  CustomListener:36 - Test execution has skipped for : testSomething
+2023-12-07 23:40:01 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-12-07 23:40:01 INFO  RetryFailedTests:20 - Running a failed test 2 times
+2023-12-07 23:40:01 INFO  CustomListener:36 - Test execution has skipped for : testSomething
+2023-12-07 23:40:09 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-12-07 23:40:09 ERROR CustomListener:30 - Test execution failed and taking screen shot: testSomething
+2023-12-07 23:40:17 INFO  CustomListener:19 - Test execution has started for : validateLogin
+2023-12-07 23:40:17 INFO  RetryFailedTests:20 - Running a failed test 1 times
+2023-12-07 23:40:17 INFO  CustomListener:36 - Test execution has skipped for : validateLogin
+2023-12-07 23:40:25 INFO  CustomListener:19 - Test execution has started for : validateLogin
+2023-12-07 23:40:25 INFO  RetryFailedTests:20 - Running a failed test 2 times
+2023-12-07 23:40:25 INFO  CustomListener:36 - Test execution has skipped for : validateLogin
+2023-12-07 23:40:33 INFO  CustomListener:19 - Test execution has started for : validateLogin
+2023-12-07 23:40:33 ERROR CustomListener:30 - Test execution failed and taking screen shot: validateLogin
+2023-12-07 23:40:41 INFO  CustomListener:19 - Test execution has started for : verifyAlertBannerForNewsletterSubscription
+2023-12-25 13:46:12 INFO  CustomListener:19 - Test execution has started for : validateLogin
+2023-12-25 13:46:12 INFO  RetryFailedTests:20 - Running a failed test 1 times
+2023-12-25 13:46:12 INFO  CustomListener:36 - Test execution has skipped for : validateLogin
+2023-12-25 13:46:12 INFO  CustomListener:19 - Test execution has started for : validateLogin
+2023-12-25 13:46:12 INFO  RetryFailedTests:20 - Running a failed test 2 times
+2023-12-25 13:46:12 INFO  CustomListener:36 - Test execution has skipped for : validateLogin
+2023-12-25 13:46:12 INFO  CustomListener:19 - Test execution has started for : validateLogin
+2023-12-25 13:46:12 ERROR CustomListener:30 - Test execution failed and taking screen shot: validateLogin
+2023-12-25 13:46:12 ERROR CustomListener:30 - Test execution failed and taking screen shot: validateLogin
+2023-12-25 13:47:43 INFO  CustomListener:36 - Test execution has skipped for : verifyLoginCredentials
+2023-12-25 13:47:51 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-12-25 13:47:51 INFO  RetryFailedTests:20 - Running a failed test 1 times
+2023-12-25 13:47:51 INFO  CustomListener:36 - Test execution has skipped for : testSomething
+2023-12-25 13:47:59 INFO  CustomListener:19 - Test execution has started for : testSomething
+2023-12-25 13:47:59 INFO  RetryFailedTests:20 - Running a failed test 2 times
+2023-12-25 13:47:59 INFO  CustomListener:36 - Test execution has skipped for : testSomething

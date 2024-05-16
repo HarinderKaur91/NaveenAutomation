@@ -23,5 +23,5 @@ public class RetryFailedTests extends TestBase implements IRetryAnalyzer {
 
 		return false;
 	}
-
 }
+

@@ -25,7 +25,7 @@ public class ProxyDriver implements WebDriver, JavascriptExecutor, TakesScreensh
 	}
 
 	public void click(By locator) {
-		WebElement element = this.waitForElementToBeClickable(locator, 5);
+		WebElement element = this.waitForElementToBeClickable(locator, 10);
 		element.click();
 	}
 

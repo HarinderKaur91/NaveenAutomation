@@ -13,7 +13,7 @@ public class AccountLoginPage extends Page {
 		super(wd, waitForPageToLoad);
 	}
 
-	private static final By emailInputField = By.cssSelector("form div.form-group:first-of-type input");
+	private static final By emailInputField = By.cssSelector(" input[name='emil'],form div.form-group:first-of-type input");
 	private static final By passwordInputField = By.cssSelector("form div.form-group:last-of-type input");
 	private static final By loginBtn = By.cssSelector("input[type='submit']");
 	private static final By alertBanner = By.cssSelector("div.alert-danger");

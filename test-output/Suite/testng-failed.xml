@@ -1,39 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.naveenautomation.Listeners.CustomListener"/>
-    <listener class-name="com.naveenautomation.Utils.TransformerForRetry"/>
-    <listener class-name="com.naveenautomation.Reports.ExtentReportListener"/>
-  </listeners>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.naveenautomation.Tests.MyWishListTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="setUp"/>
-          <include name="verifyProductName"/>
-          <include name="verifyProductPrice"/>
-          <include name="verifyModifyBannerAfterDelete"/>
-        </methods>
-      </class> <!-- com.naveenautomation.Tests.MyWishListTest -->
       <class name="com.naveenautomation.Tests.MyAccountTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyAlertBannerForTelephoneUpdate"/>
-          <include name="setUp"/>
           <include name="testSomething"/>
-          <include name="validateLogin"/>
-          <include name="verifyAlertBannerForNewsletterSubscription"/>
         </methods>
       </class> <!-- com.naveenautomation.Tests.MyAccountTest -->
-      <class name="com.naveenautomation.Tests.AccountLoginTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="verifyLoginCredentials"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.naveenautomation.Tests.AccountLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
